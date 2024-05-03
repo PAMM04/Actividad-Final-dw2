@@ -1,0 +1,14 @@
+<!--Eliminamos lo que viene por defecto-->
+<div *ngIf="hero">
+  <h2>Detalles del Equipo {{hero.name | uppercase}}</h2>
+  <div><span>Posicion en la tabla: </span>{{hero.id}}</div>
+  <div>
+    <label for="hero-name">Nombre del Club: </label>
+    <input id="hero-name" [(ngModel)]="hero.name" placeholder="Hero name"/>
+  </div>
+  <div class="descripcion">
+    <label for="hero-descripcion">Descripcion: </label>
+    <textarea for="hero-descripcion" [(ngModel)]="hero.descripcion" placeholder="descripcion"></textarea>
+  </div>
+  <button type="button" (click)="goBack()">Regresar</button>
+</div>

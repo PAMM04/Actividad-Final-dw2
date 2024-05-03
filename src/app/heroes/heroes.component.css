@@ -1,0 +1,55 @@
+/* nueva hoja de estilos*/
+.heroes {
+  margin: 0 0 2em 0; /* Establece los márgenes del contenedor de héroes */
+  list-style-type: none; /* Elimina los puntos de la lista */
+  padding: 0; /* Elimina el relleno de la lista */
+  width: 15em; /* Establece el ancho del contenedor de héroes */
+}
+
+.heroes li {
+  position: relative; /* Establece la posición relativa para los elementos de la lista */
+  cursor: pointer; /* Cambia el cursor al pasar sobre los elementos de la lista */
+}
+
+.heroes li:hover {
+  left: .1em; /* Mueve ligeramente el elemento de la lista al pasar el ratón sobre él */
+}
+
+.heroes a {
+  color: #ffffff; /* Establece el color del texto */
+  text-decoration: none; /* Elimina la decoración de texto */
+  background-color: #020335; /* Establece el color de fondo del enlace */
+  margin: .5em; /* Establece los márgenes del enlace */
+  padding: .3em 0; /* Establece el relleno del enlace */
+  height: 1.6em; /* Establece la altura del enlace */
+  border-radius: 4px; /* Establece el radio de borde del enlace */
+  display: block; /* Hace que el enlace sea un bloque para ocupar todo el ancho del contenedor */
+  width: 100%; /* Establece el ancho del enlace al 100% */
+}
+
+.heroes a:hover {
+  color: #ffffff; /* Cambia el color del texto al pasar el ratón sobre el enlace */
+  background-color: #e6e6e6; /* Cambia el color de fondo del enlace al pasar el ratón sobre él */
+}
+
+.heroes a:active {
+  background-color: #2230b3; /* Cambia el color de fondo del enlace al hacer clic */
+  color: #fafafa; /* Cambia el color del texto al hacer clic */
+}
+
+.heroes .badge {
+  display: inline-block; /* Hace que el elemento de la insignia sea en línea */
+  font-size: small; /* Establece el tamaño de fuente pequeño */
+  color: white; /* Establece el color del texto de la insignia */
+  padding: 0.8em 0.7em 0 0.7em; /* Establece el relleno de la insignia */
+  background-color: #091292; /* Establece el color de fondo de la insignia */
+  line-height: 1em; /* Establece la altura de línea de la insignia */
+  position: relative; /* Establece la posición relativa para la insignia */
+  left: -1px; /* Desplaza ligeramente la insignia hacia la izquierda */
+  top: -4px; /* Desplaza ligeramente la insignia hacia arriba */
+  height: 1.8em; /* Establece la altura de la insignia */
+  min-width: 16px; /* Establece el ancho mínimo de la insignia */
+  text-align: right; /* Alinea el texto de la insignia a la derecha */
+  margin-right: .8em; /* Establece el margen derecho de la insignia */
+  border-radius: 4px 0 0 4px; /* Establece el radio de borde de la insignia */
+}

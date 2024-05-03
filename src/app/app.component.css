@@ -1,0 +1,44 @@
+/* AppComponent's private CSS styles */
+h1, h2 {
+  font-weight: bold; /* Aplicar negrita */
+  color: rgb(255, 255, 255); /* Color del texto */
+  border: 2px solid rgb(4, 4, 78); /* Contorno de color azul */
+  background-color: rgb(4, 4, 78); /* Color del fondo dentro del borde */
+  }
+  nav a {
+    /* Agrega un relleno interno de 1 rem (unidad de medida relativa al tamaño de la letra) a todos los lados del elemento. Esto crea un espacio entre el borde del elemento y su contenido. */
+padding: 1rem;
+
+/* Quita cualquier decoración de texto predeterminada, como subrayado, enlaces hipertextuales. */
+text-decoration: none;
+
+/* Agrega un margen superior de 10 píxeles al elemento, creando espacio entre este elemento y el elemento que está arriba. */
+margin-top: 10px;
+
+/* Hace que el elemento se comporte como un bloque en línea. Esto significa que ocupará solo el espacio necesario y permitirá que otros elementos estén en la misma línea. */
+display: inline-block;
+
+/* Establece el color de fondo del elemento en un gris claro (#e8e8e8). */
+background-color: #e8e8e8;
+
+/* Establece el color del texto del elemento en un tono oscuro de gris (#3d3d3d). */
+color: #3d3d3d;
+
+/* Aplica un radio de borde de 4 píxeles, redondeando las esquinas del elemento. */
+border-radius: 4px;
+
+/* Establece el grosor de la fuente en negrita, haciendo que el texto dentro del elemento sea más grueso. */
+font-weight: bold;
+
+/* Agrega un margen derecho de 10 píxeles al elemento, creando espacio entre este elemento y el elemento que está a su derecha. */
+margin-right: 10px;
+
+  }
+  
+  nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #1668c5fd;
+  }
+  nav a:active {
+    background-color: rgb(4, 4, 78);
+  }
